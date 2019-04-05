@@ -1,8 +1,8 @@
-# emojione Android Usage
+# JoyPixels Android Toolkit Usage
 
 ## Client Properties
 
-The following properties are available in the Swift/iOS version of the Emojione library:
+The following properties are available in the Swift/iOS version of the JoyPixels library:
 
  - `emojiVersion` (str) - Used only to direct CDN path. This is a 2-digit version (e.g. '3.1'). Not recommended for usage below 3.0.0.
  - `emojiDownloadSize` (enum) **Default: `128`** - Used on to direct CDN path for non-sprite PNG usage to determine the size of the emoji image downloaded. Available options are '32', '64', and '128'.
@@ -26,7 +26,7 @@ Take native unicode emoji input and translate it to their corresponding shortnam
 
 **`client.shortnameToImage(string, imageSize, callback) -> SpannableStringBuilder`** - _shortname -> images_
 
-Take input containing shortnames and translate it directly to EmojiOne images for display in a spannable string. An imageSize parameter is used to set the size the size of the emoji images within the spannable string. A callback is made when all emoji have been retrieved from the `imagePathPNG` CDN.
+Take input containing shortnames and translate it directly to JoyPixels images for display in a spannable string. An imageSize parameter is used to set the size the size of the emoji images within the spannable string. A callback is made when all emoji have been retrieved from the `imagePathPNG` CDN.
 
 **`client.shortnameToUnicode(string) -> String`** - _shortname -> native unicode emoji_
 
@@ -34,9 +34,9 @@ Take input containing shortnames and translate it directly to Unicode Emoji (whe
 
 **`client.unicodeToImage(string, imageSize, callback) -> SpannableStringBuilder`** - _native unicode -> images_
 
-Take native unicode emoji input and translate it directly to EmojiOne images for display in a spannable string. An imageSize parameter is used to set the size of the emoji images within the spannable string. A callback is made when all emoji have been retrieved from the `imagePathPNG` CDN.
+Take native unicode emoji input and translate it directly to JoyPixels images for display in a spannable string. An imageSize parameter is used to set the size of the emoji images within the spannable string. A callback is made when all emoji have been retrieved from the `imagePathPNG` CDN.
 
 **`client.toImage(string, imageSize, callback) -> SpannableStringBuilder`** - _native unicode + shortnames -> images_
 
-Take a string containing both native unicode emoji and shortnames, and translate it into EmojiOne images for display in a spannable string. An imageSize parameter is used to set the size of the emoji images within the spannable string. A callback is made when all emoji have been retrieved from the `imagePathPNG` CDN.
+Take a string containing both native unicode emoji and shortnames, and translate it into JoyPixels images for display in a spannable string. An imageSize parameter is used to set the size of the emoji images within the spannable string. A callback is made when all emoji have been retrieved from the `imagePathPNG` CDN.
 

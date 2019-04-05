@@ -1,29 +1,28 @@
-# ![EmojiOne Logo](https://www.emojione.com/images/vectors/emojione-typeface.svg)
+# ![JoyPixels Logo](https://www.joypixels.com/images/logos/logo-cyan.svg)
 
-> [![Release](https://jitpack.io/v/emojione/emojione-android.svg)](https://github.com/emojione/emojione-android)
-[![License](https://img.shields.io/cocoapods/l/emojione-ios.svg?style=flat)](LICENSE.md)
+> [![Release](https://jitpack.io/v/joypixels/emoji-toolkit-android.svg)](https://github.com/joypixels/emoji-toolkit-android)
 
-**EmojiOne Android library** to help users find and replace native system emojis with EmojiOne in thier Android app.
+**JoyPixels Android Toolkit** to help users find and replace native system emojis with JoyPixels in their Android app.
 
 
 ## What's Included?
 
- - This project includes a Java library used to convert emoji into various formats, including conversion to EmojiOne emoji images.
+ - This project includes a Java library used to convert emoji into various formats, including conversion to JoyPixels emoji images.
  - The library included here are available free under the MIT license.  Please check the [LICENSE.md](LICENSE.md) file for more details.
  
  
-## License to Use EmojiOne Images
+## License to Use JoyPixels Images
  
-### EmojiOne Version 3
+### JoyPixels Version 3+
  
- EmojiOne launched version 3.0 in 2017, which has several licensing options available. PNG 32px, 64px, and 128px as well as 32px and 64px sprites are available for digital use, with attribution. See [emojione.com/developers/free-license](https://www.emojione.com/developers/free-license) for more information on usage and attribution requirements.
+ JoyPixels has several licensing options available. PNG 32px, 64px, and 128px as well as 32px and 64px sprites are available for digital use, with attribution. See [joypixels.com/liceses/free](https://www.joypixels.com/licenses/free) for more information on usage and attribution requirements.
  
- *Premium Licenses are available for larger PNG assets and SVG assets, for digital and print use.* See [emojione.com/developers/premium-license](https://www.emojione.com/developers/premium-license) for more information or to obtain a Premium License.
+ *Premium Licenses are available for larger PNG assets and SVG assets, for digital and print use.* See [joypixels.com/licenses/premium](https://www.joypixels.com/licenses/premium) for more information or to obtain a Premium License.
  
 
 ## Installation
 
-emojione-android is available through [JitPack](https://jitpack.io). To install
+emoji-toolkit-android is available through [JitPack](https://jitpack.io). To install
 it, simply add the following line to your build.gradle:
 
 ```gradle
@@ -33,7 +32,7 @@ allprojects {
     }
 }
 dependencies {
-    implementation 'com.github.emojione:emojione-android:3.1.0'
+    implementation 'com.github.joypixels:emoji-toolkit-android:4.5.0'
 }
 ```
 and in your manifest add:
@@ -45,10 +44,10 @@ and in your manifest add:
 Internet is required to download the converted emoji. 
 
 ## Contributing
-Please see [CONTRIBUTING.md](CONTRIBUTING.md) for more info on contributing to the emojione project. For artwork comments and questions please see the emojione-assets repo.
+Please see [CONTRIBUTING.md](CONTRIBUTING.md) for more info on contributing to the JoyPixels project. For artwork comments and questions please see the emoji-assets repo.
 
 ## Usage
-You'll find basic usage examples here in the [/EmojioneExamples/](EmojioneExamples/) directory, and links to usage demos in [USAGE.md](USAGE.md).
+You'll find links to usage demos in [USAGE.md](USAGE.md).
 
 
 ## Information
@@ -57,7 +56,7 @@ You'll find basic usage examples here in the [/EmojioneExamples/](EmojioneExampl
 
 If you discover any bugs, feel free to create an issue on GitHub. We also welcome the open-source community to contribute to the project by forking it and issuing pull requests.
 
- *  [https://github.com/emojione/emojione-android/issues](https://github.com/emojione/emojione-android/issues)
+ *  [https://github.com/joypixels/emoji-toolkit-android/issues](https://github.com/joypixels/emoji-toolkit-android/issues)
 
 
 ### Contact
@@ -65,6 +64,6 @@ If you discover any bugs, feel free to create an issue on GitHub. We also welcom
 If you have any questions, comments, or concerns you are welcome to contact us.
 
 *  [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/emojione/emojione?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-* [support@emojione.com](mailto:support@emojione.com)
-* [https://www.emojione.com](https://www.emojione.com)
-* [https://twitter.com/emojione](https://twitter.com/emojione)
+* [support@joypixels.com](mailto:support@joypixels.com)
+* [https://www.joypixels.com](https://www.joypixels.com)
+* [https://twitter.com/joypixels](https://twitter.com/joypixels)
