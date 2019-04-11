@@ -1,4 +1,4 @@
-# JoyPixels Android Toolkit Usage
+# Emoji Toolkit Android - Usage
 
 ## Client Properties
 

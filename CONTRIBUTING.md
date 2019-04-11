@@ -1,4 +1,4 @@
-## How to contribute to the JoyPixels library
+How to contribute to the Emoji Toolkit Android
 ---
 ### code format
 * Try to maintain the general code convention currently found in the library.

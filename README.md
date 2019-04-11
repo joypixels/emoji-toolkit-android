@@ -2,7 +2,7 @@
 
 > [![Release](https://jitpack.io/v/joypixels/emoji-toolkit-android.svg)](https://github.com/joypixels/emoji-toolkit-android)
 
-**JoyPixels Android Toolkit** to help users find and replace native system emojis with JoyPixels in their Android app.
+**Emoji Toolkit Android** to help users find and replace native system emojis with JoyPixels in their Android app.
 
 
 ## What's Included?
