@@ -4,7 +4,7 @@
 
 The following properties are available in the Swift/iOS version of the JoyPixels library:
 
- - `emojiVersion` (str) - Used only to direct CDN path. This is a 2-digit version (e.g. '3.1'). Not recommended for usage below 3.0.0.
+ - `emojiVersion` (str) - Used only to direct CDN path. This is a 2-digit version (e.g. '5.0'). Not recommended for usage below 3.0.0.
  - `emojiDownloadSize` (enum) **Default: `128`** - Used on to direct CDN path for non-sprite PNG usage to determine the size of the emoji image downloaded. Available options are '32', '64', and '128'.
  - `imagePathPNG` (str) Defaults to CDN (jsdelivr) path. 
  - `greedyMatch` (bool) **Default: `false`** - When `true`, matches non-fully-qualified Unicode values.
