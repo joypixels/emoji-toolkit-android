@@ -182,7 +182,7 @@ public class Client {
                 String filename = shortcode_replace.get(shortname).get(1);
                 OkHttpClient client = new OkHttpClient();
                 Request request = new Request.Builder()
-                        .url(this.imagePathPNG+this.emojiVersion+"/png/"+this.emojiDownloadSize+"/"+filename+".png")
+                        .url(this.imagePathPNG+this.emojiVersion+"/png/unicode/"+this.emojiDownloadSize+"/"+filename+".png")
                         .build();
                 client.newCall(request).enqueue(new Callback() {
                     @Override
@@ -251,7 +251,7 @@ public class Client {
             String filename = shortcode_replace.get(shortname).get(1);
             OkHttpClient client = new OkHttpClient();
             Request request = new Request.Builder()
-                    .url(this.imagePathPNG + this.emojiVersion + "/png/" + this.emojiDownloadSize + "/" + filename + ".png")
+                    .url(this.imagePathPNG + this.emojiVersion + "/png/unicode/" + this.emojiDownloadSize + "/" + filename + ".png")
                     .build();
             client.newCall(request).enqueue(new Callback() {
                 @Override
