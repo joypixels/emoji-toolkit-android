@@ -58,11 +58,6 @@ public class Client {
      * This will output unicode from shortname input.
      */
     public String shortnameToUnicode(String string) {
-        if(this.shortcodes) {
-            Pattern pattern = Pattern.compile(this.shortnameRegexp);
-            Matcher matches = pattern.matcher(string);
-            string = replaceShortnameWithUnicode(string, matches);
-        }
         if(this.ascii) {
             String asciiRegexp = this.ruleset.getAsciiRegexp();
             String asciiRX = (this.riskyMatchAscii) ? "(()" + asciiRegexp + "())" : "((\\s|^)"+asciiRegexp+"(?=\\s|$|[!,.?]))";
@@ -70,6 +65,11 @@ public class Client {
             Pattern pattern = Pattern.compile(asciiRX);
             Matcher matches = pattern.matcher(string);
             string = replaceAsciiWithUnicode(string, matches);
+        }
+        if(this.shortcodes) {
+            Pattern pattern = Pattern.compile(this.shortnameRegexp);
+            Matcher matches = pattern.matcher(string);
+            string = replaceShortnameWithUnicode(string, matches);
         }
         return string;
     }
