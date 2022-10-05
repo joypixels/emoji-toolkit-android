@@ -32,7 +32,7 @@ allprojects {
     }
 }
 dependencies {
-    implementation 'com.github.joypixels:emoji-toolkit-android:6.0.0'
+    implementation 'com.github.joypixels:emoji-toolkit-android:7.0.0'
 }
 ```
 and in your manifest add:
@@ -67,3 +67,6 @@ If you have any questions, comments, or concerns you are welcome to contact us.
 * [support@joypixels.com](mailto:support@joypixels.com)
 * [https://www.joypixels.com](https://www.joypixels.com)
 * [https://twitter.com/joypixels](https://twitter.com/joypixels)
+
+### Consideration
+The library's `unicodeRegexp` value was generated using [s9e\RegexpBuilder](https://github.com/s9e/RegexpBuilder).
