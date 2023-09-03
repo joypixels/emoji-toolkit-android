@@ -394,8 +394,21 @@ public class Client {
     }
 
     private String hexStringToCodePoint(String hexString) {
-        int codePoint = Integer.parseInt(hexString, 16 );
-        return new String(new int[]{codePoint}, 0, 1);
+        int codePoint;
+        int parts[];
+        int partsLength = 1;
+        if (hexString.contains("-")) {
+            String s[] = hexString.split("-");
+            partsLength = s.length;
+            parts = new int[partsLength];
+            for (int i = 0; i < partsLength; i++) {
+                parts[i] = Integer.parseInt(s[i], 16);
+            }
+        } else {
+            codePoint = Integer.parseInt(hexString, 16);
+            parts = new int[]{codePoint};
+        }
+        return new String(parts, 0, partsLength);
     }
 
     public boolean isAscii() {
