@@ -15,7 +15,6 @@
         android:layout_marginTop="36dp"
         android:layout_marginEnd="8dp"
         android:inputType="text"
-        android:text="Hello world! \\uD83D\\uDE04"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
