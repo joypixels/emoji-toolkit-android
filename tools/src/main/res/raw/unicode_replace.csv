@@ -1350,6 +1350,7 @@ F09FA791E2808DF09FA6B3,:person_white_hair:
 F09FA791E2808DF09FA6BC,:person_in_motorized_wheelchair:
 F09FA791E2808DF09FA6BD,:person_in_manual_wheelchair:
 F09F9088E2808DE2AC9B,:black_cat:
+F09F90A6E2808DE2AC9B,:black_bird:
 F09F87A6F09F87A8,:flag_ac:
 F09F87A6F09F87A9,:flag_ad:
 F09F87A6F09F87AA,:flag_ae:
@@ -2223,6 +2224,16 @@ F09FABB6F09F8FBC,:heart_hands_tone2:
 F09FABB6F09F8FBD,:heart_hands_tone3:
 F09FABB6F09F8FBE,:heart_hands_tone4:
 F09FABB6F09F8FBF,:heart_hands_tone5:
+F09FABB7F09F8FBB,:leftwards_pushing_hand_tone1:
+F09FABB7F09F8FBC,:leftwards_pushing_hand_tone2:
+F09FABB7F09F8FBD,:leftwards_pushing_hand_tone3:
+F09FABB7F09F8FBE,:leftwards_pushing_hand_tone4:
+F09FABB7F09F8FBF,:leftwards_pushing_hand_tone5:
+F09FABB8F09F8FBB,:rightwards_pushing_hand_tone1:
+F09FABB8F09F8FBC,:rightwards_pushing_hand_tone2:
+F09FABB8F09F8FBD,:rightwards_pushing_hand_tone3:
+F09FABB8F09F8FBE,:rightwards_pushing_hand_tone4:
+F09FABB8F09F8FBF,:rightwards_pushing_hand_tone5:
 23EFB88FE283A3,:hash:
 2AEFB88FE283A3,:asterisk:
 30EFB88FE283A3,:zero:
@@ -3250,6 +3261,7 @@ F09F9B92,:shopping_cart:
 F09F9B95,:hindu_temple:
 F09F9B96,:hut:
 F09F9B97,:elevator:
+F09F9B9C,:wireless:
 F09F9B9D,:playground_slide:
 F09F9B9E,:wheel:
 F09F9B9F,:ring_buoy:
@@ -3524,6 +3536,9 @@ F09FA9B1,:one_piece_swimsuit:
 F09FA9B2,:briefs:
 F09FA9B3,:shorts:
 F09FA9B4,:thong_sandal:
+F09FA9B5,:light_blue_heart:
+F09FA9B6,:grey_heart:
+F09FA9B7,:pink_heart:
 F09FA9B8,:drop_of_blood:
 F09FA9B9,:adhesive_bandage:
 F09FA9BA,:stethoscope:
@@ -3536,6 +3551,8 @@ F09FAA83,:boomerang:
 F09FAA84,:magic_wand:
 F09FAA85,:piñata:
 F09FAA86,:nesting_dolls:
+F09FAA87,:maracas:
+F09FAA88,:flute:
 F09FAA90,:ringed_planet:
 F09FAA91,:chair:
 F09FAA92,:razor:
@@ -3565,6 +3582,9 @@ F09FAAA9,:mirror_ball:
 F09FAAAA,:identification_card:
 F09FAAAB,:low_battery:
 F09FAAAC,:hamsa:
+F09FAAAD,:folding_hand_fan:
+F09FAAAE,:hair_pick:
+F09FAAAF,:khanda:
 F09FAAB0,:fly:
 F09FAAB1,:worm:
 F09FAAB2,:beetle:
@@ -3576,12 +3596,18 @@ F09FAAB7,:lotus:
 F09FAAB8,:coral:
 F09FAAB9,:empty_nest:
 F09FAABA,:nest_with_eggs:
+F09FAABB,:hyacinth:
+F09FAABC,:jellyfish:
+F09FAABD,:wing:
+F09FAABF,:goose:
 F09FAB80,:anatomical_heart:
 F09FAB81,:lungs:
 F09FAB82,:people_hugging:
 F09FAB83,:pregnant_man:
 F09FAB84,:pregnant_person:
 F09FAB85,:person_with_crown:
+F09FAB8E,:moose:
+F09FAB8F,:donkey:
 F09FAB90,:blueberries:
 F09FAB91,:bell_pepper:
 F09FAB92,:olive:
@@ -3592,6 +3618,8 @@ F09FAB96,:teapot:
 F09FAB97,:pouring_liquid:
 F09FAB98,:beans:
 F09FAB99,:jar:
+F09FAB9A,:ginger_root:
+F09FAB9B,:pea_pod:
 F09FABA0,:melting_face:
 F09FABA1,:saluting_face:
 F09FABA2,:face_with_open_eyes_and_hand_over_mouth:
@@ -3600,6 +3628,7 @@ F09FABA4,:face_with_diagonal_mouth:
 F09FABA5,:dotted_line_face:
 F09FABA6,:biting_lip:
 F09FABA7,:bubbles:
+F09FABA8,:shaking_face:
 F09FABB0,:hand_with_index_finger_and_thumb_crossed:
 F09FABB1,:rightwards_hand:
 F09FABB2,:leftwards_hand:
@@ -3607,6 +3636,8 @@ F09FABB3,:palm_down_hand:
 F09FABB4,:palm_up_hand:
 F09FABB5,:index_pointing_at_the_viewer:
 F09FABB6,:heart_hands:
+F09FABB7,:leftwards_pushing_hand:
+F09FABB8,:rightwards_pushing_hand:
 E28C9A,:watch:
 E28C9B,:hourglass:
 E28FA9,:fast_forward:

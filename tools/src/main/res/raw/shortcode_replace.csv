@@ -1349,6 +1349,7 @@
 :woman_technologist:,\u1f469\u200d\u1f4bb,1f469-1f4bb
 :woman_white_haired:,\u1f469\u200d\u1f9b3,1f469-1f9b3
 :woman_with_probing_cane:,\u1f469\u200d\u1f9af,1f469-1f9af
+:black_bird:,\u1f426\u200d\u2b1b,1f426-2b1b
 :black_cat:,\u1f408\u200d\u2b1b,1f408-2b1b
 :asterisk:,\u002a\ufe0f\u20e3,002a-20e3
 :eight:,\u0038\ufe0f\u20e3,0038-20e3
@@ -1784,6 +1785,11 @@
 :leftwards_hand_tone3:,\u1faf2\u1f3fd,1faf2-1f3fd
 :leftwards_hand_tone4:,\u1faf2\u1f3fe,1faf2-1f3fe
 :leftwards_hand_tone5:,\u1faf2\u1f3ff,1faf2-1f3ff
+:leftwards_pushing_hand_tone1:,\u1faf7\u1f3fb,1faf7-1f3fb
+:leftwards_pushing_hand_tone2:,\u1faf7\u1f3fc,1faf7-1f3fc
+:leftwards_pushing_hand_tone3:,\u1faf7\u1f3fd,1faf7-1f3fd
+:leftwards_pushing_hand_tone4:,\u1faf7\u1f3fe,1faf7-1f3fe
+:leftwards_pushing_hand_tone5:,\u1faf7\u1f3ff,1faf7-1f3ff
 :leg_tone1:,\u1f9b5\u1f3fb,1f9b5-1f3fb
 :leg_tone2:,\u1f9b5\u1f3fc,1f9b5-1f3fc
 :leg_tone3:,\u1f9b5\u1f3fd,1f9b5-1f3fd
@@ -2164,6 +2170,11 @@
 :rightwards_hand_tone3:,\u1faf1\u1f3fd,1faf1-1f3fd
 :rightwards_hand_tone4:,\u1faf1\u1f3fe,1faf1-1f3fe
 :rightwards_hand_tone5:,\u1faf1\u1f3ff,1faf1-1f3ff
+:rightwards_pushing_hand_tone1:,\u1faf8\u1f3fb,1faf8-1f3fb
+:rightwards_pushing_hand_tone2:,\u1faf8\u1f3fc,1faf8-1f3fc
+:rightwards_pushing_hand_tone3:,\u1faf8\u1f3fd,1faf8-1f3fd
+:rightwards_pushing_hand_tone4:,\u1faf8\u1f3fe,1faf8-1f3fe
+:rightwards_pushing_hand_tone5:,\u1faf8\u1f3ff,1faf8-1f3ff
 :santa_tone1:,\u1f385\u1f3fb,1f385-1f3fb
 :santa_tone2:,\u1f385\u1f3fc,1f385-1f3fc
 :santa_tone3:,\u1f385\u1f3fd,1f385-1f3fd
@@ -2764,6 +2775,7 @@
 :dollar:,\u1f4b5,1f4b5
 :dolls:,\u1f38e,1f38e
 :dolphin:,\u1f42c,1f42c
+:donkey:,\u1facf,1facf
 :door:,\u1f6aa,1f6aa
 :dotted_line_face:,\u1fae5,1fae5
 :doughnut:,\u1f369,1f369
@@ -2844,10 +2856,12 @@
 :floppy_disk:,\u1f4be,1f4be
 :flower_playing_cards:,\u1f3b4,1f3b4
 :flushed:,\u1f633,1f633
+:flute:,\u1fa88,1fa88
 :fly:,\u1fab0,1fab0
 :flying_disc:,\u1f94f,1f94f
 :flying_saucer:,\u1f6f8,1f6f8
 :foggy:,\u1f301,1f301
+:folding_hand_fan:,\u1faad,1faad
 :fondue:,\u1fad5,1fad5
 :foot:,\u1f9b6,1f9b6
 :football:,\u1f3c8,1f3c8
@@ -2871,6 +2885,7 @@
 :ghost:,\u1f47b,1f47b
 :gift:,\u1f381,1f381
 :gift_heart:,\u1f49d,1f49d
+:ginger_root:,\u1fada,1fada
 :giraffe:,\u1f992,1f992
 :girl:,\u1f467,1f467
 :globe_with_meridians:,\u1f310,1f310
@@ -2878,6 +2893,7 @@
 :goal:,\u1f945,1f945
 :goat:,\u1f410,1f410
 :goggles:,\u1f97d,1f97d
+:goose:,\u1fabf,1fabf
 :gorilla:,\u1f98d,1f98d
 :grapes:,\u1f347,1f347
 :green_apple:,\u1f34f,1f34f
@@ -2885,6 +2901,7 @@
 :green_circle:,\u1f7e2,1f7e2
 :green_heart:,\u1f49a,1f49a
 :green_square:,\u1f7e9,1f7e9
+:grey_heart:,\u1fa76,1fa76
 :grimacing:,\u1f62c,1f62c
 :grin:,\u1f601,1f601
 :grinning:,\u1f600,1f600
@@ -2892,6 +2909,7 @@
 :guide_dog:,\u1f9ae,1f9ae
 :guitar:,\u1f3b8,1f3b8
 :gun:,\u1f52b,1f52b
+:hair_pick:,\u1faae,1faae
 :hamburger:,\u1f354,1f354
 :hammer:,\u1f528,1f528
 :hamsa:,\u1faac,1faac
@@ -2937,6 +2955,7 @@
 :hugging:,\u1f917,1f917
 :hushed:,\u1f62f,1f62f
 :hut:,\u1f6d6,1f6d6
+:hyacinth:,\u1fabb,1fabb
 :ice_cream:,\u1f368,1f368
 :ice_cube:,\u1f9ca,1f9ca
 :icecream:,\u1f366,1f366
@@ -2956,6 +2975,7 @@
 :japanese_ogre:,\u1f479,1f479
 :jar:,\u1fad9,1fad9
 :jeans:,\u1f456,1f456
+:jellyfish:,\u1fabc,1fabc
 :jigsaw:,\u1f9e9,1f9e9
 :joy:,\u1f602,1f602
 :joy_cat:,\u1f639,1f639
@@ -2963,6 +2983,7 @@
 :kangaroo:,\u1f998,1f998
 :key:,\u1f511,1f511
 :keycap_ten:,\u1f51f,1f51f
+:khanda:,\u1faaf,1faaf
 :kimono:,\u1f458,1f458
 :kiss:,\u1f48b,1f48b
 :kissing:,\u1f617,1f617
@@ -2991,9 +3012,11 @@
 :left_facing_fist:,\u1f91b,1f91b
 :left_luggage:,\u1f6c5,1f6c5
 :leftwards_hand:,\u1faf2,1faf2
+:leftwards_pushing_hand:,\u1faf7,1faf7
 :leg:,\u1f9b5,1f9b5
 :lemon:,\u1f34b,1f34b
 :leopard:,\u1f406,1f406
+:light_blue_heart:,\u1fa75,1fa75
 :light_rail:,\u1f688,1f688
 :link:,\u1f517,1f517
 :lion_face:,\u1f981,1f981
@@ -3035,6 +3058,7 @@
 :mans_shoe:,\u1f45e,1f45e
 :manual_wheelchair:,\u1f9bd,1f9bd
 :maple_leaf:,\u1f341,1f341
+:maracas:,\u1fa87,1fa87
 :martial_arts_uniform:,\u1f94b,1f94b
 :mask:,\u1f637,1f637
 :mate:,\u1f9c9,1f9c9
@@ -3070,6 +3094,7 @@
 :monkey_face:,\u1f435,1f435
 :monorail:,\u1f69d,1f69d
 :moon_cake:,\u1f96e,1f96e
+:moose:,\u1face,1face
 :mortar_board:,\u1f393,1f393
 :mosque:,\u1f54c,1f54c
 :mosquito:,\u1f99f,1f99f
@@ -3165,6 +3190,7 @@
 :parrot:,\u1f99c,1f99c
 :partying_face:,\u1f973,1f973
 :passport_control:,\u1f6c2,1f6c2
+:pea_pod:,\u1fadb,1fadb
 :peach:,\u1f351,1f351
 :peacock:,\u1f99a,1f99a
 :peanuts:,\u1f95c,1f95c
@@ -3222,6 +3248,7 @@
 :pinching_hand:,\u1f90f,1f90f
 :pineapple:,\u1f34d,1f34d
 :ping_pong:,\u1f3d3,1f3d3
+:pink_heart:,\u1fa77,1fa77
 :pizza:,\u1f355,1f355
 :piñata:,\u1fa85,1fa85
 :placard:,\u1faa7,1faa7
@@ -3325,6 +3352,7 @@
 :rice_scene:,\u1f391,1f391
 :right_facing_fist:,\u1f91c,1f91c
 :rightwards_hand:,\u1faf1,1faf1
+:rightwards_pushing_hand:,\u1faf8,1faf8
 :ring:,\u1f48d,1f48d
 :ring_buoy:,\u1f6df,1f6df
 :ringed_planet:,\u1fa90,1fa90
@@ -3371,6 +3399,7 @@
 :seedling:,\u1f331,1f331
 :selfie:,\u1f933,1f933
 :sewing_needle:,\u1faa1,1faa1
+:shaking_face:,\u1fae8,1fae8
 :shallow_pan_of_food:,\u1f958,1f958
 :shark:,\u1f988,1f988
 :shaved_ice:,\u1f367,1f367
@@ -3580,7 +3609,9 @@
 :wind_chime:,\u1f390,1f390
 :window:,\u1fa9f,1fa9f
 :wine_glass:,\u1f377,1f377
+:wing:,\u1fabd,1fabd
 :wink:,\u1f609,1f609
+:wireless:,\u1f6dc,1f6dc
 :wolf:,\u1f43a,1f43a
 :woman:,\u1f469,1f469
 :woman_with_headscarf:,\u1f9d5,1f9d5

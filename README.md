@@ -32,7 +32,7 @@ allprojects {
     }
 }
 dependencies {
-    implementation 'com.github.joypixels:emoji-toolkit-android:7.0.0'
+    implementation 'com.github.joypixels:emoji-toolkit-android:8.0.0'
 }
 ```
 and in your manifest add:
