@@ -5,10 +5,10 @@ plugins {
 
 android {
     namespace = "com.joypixels.tools"
-    compileSdk = 33
+    compileSdk = 37
 
     defaultConfig {
-        minSdk = 23
+        minSdk = 24
         targetSdk = 33
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
