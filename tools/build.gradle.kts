@@ -1,11 +1,11 @@
 plugins {
     id("com.android.library")
-    id('maven-publish')
+    id("maven-publish")
 }
 
 android {
     namespace = "com.joypixels.tools"
-    compileSdk = 37
+    compileSdk = 34
 
     defaultConfig {
         minSdk = 24
