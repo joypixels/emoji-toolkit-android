@@ -33,6 +33,7 @@ allprojects {
 }
 dependencies {
     implementation 'com.github.joypixels:emoji-toolkit-android:v8.0.12'
+    implementation("com.squareup.okhttp3:okhttp:4.12.0") //required for remote files
 }
 ```
 and in your manifest add:
@@ -41,13 +42,47 @@ and in your manifest add:
 <uses-permission android:name="android.permission.INTERNET" />
 ```
 
-Internet is required to download the converted emoji. 
+Internet is required to download the converted emoji.
 
 ## Contributing
 Please see [CONTRIBUTING.md](CONTRIBUTING.md) for more info on contributing to the JoyPixels project. For artwork comments and questions please see the emoji-assets repo.
 
 ## Usage
-You'll find links to usage demos in [USAGE.md](USAGE.md).
+You'll find links to usage demos in [USAGE.md](USAGE.md), and a sample project included in the JoyPixelsExamples directory here.
+
+For Kotlin implementations, implement v8.0.12+ and use the syntax below in place of the Java syntax utilized in the example.
+
+```
+override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+
+        setContentView(R.layout.activity_main)
+
+        val client = Client(this)
+        client.setAscii(false) // convert ascii smileys? =)
+        client.setShortcodes(true) // convert shortcodes? :joy:
+        client.setGreedyMatch(true) // true enables less strict unicode matching
+        client.setRiskyMatchAscii(true) // match ascii without leading/trailing space character
+
+        val editText: EditText = findViewById(R.id.editText)
+        editText.setText("Hello! \uD83D\uDE04 <3 :joy:")
+
+        val textView: TextView = findViewById(R.id.textView)
+
+        val toImage = findViewById(R.id.btnToImage) as Button
+        toImage.setOnClickListener { // Convert native unicode emoji and shortnames to images on a spannable string
+            client.toImage(editText.text.toString(), 128, object : Callback {
+                override fun onFailure(e: IOException) {
+                    textView.text = e.message
+                }
+
+                override fun onSuccess(ssb: SpannableStringBuilder) {
+                    textView.text = ssb
+                }
+            })
+        }
+    }
+```
 
 
 ## Information
